@@ -1,0 +1,69 @@
+body {
+    margin: 0px;
+    background-image: url(../images/fondo.jpg);	
+}
+@font-face {
+    font-family: myfont;
+    src: url(../fonts/myfont.ttf);
+}
+header{
+    background-color: #f4a460;
+    width: 100%;
+    height: 110px;
+}
+#logo {
+    float: left;
+    background-image: url(../images/juego.jpg);
+    height: 90px;
+    width: 90px;
+    background-size: 90px 90px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#title {
+    float: left;
+    font-family: myfont;
+    font-size: 60px;
+    color: white;
+    margin-top: 25px;
+    margin-left: 18%;
+}
+#Card1{
+position:absolute;
+left:600px;
+top: 250px;
+}
+h2{
+font-family: myfont;    
+}
+#P1{
+position: absolute;
+top:-60px;
+left:70px;
+}
+#P2{
+    position: absolute;
+    top:-60px;
+    left:470px;
+    }
+#playercounter{
+font-family: myfont;
+text-transform: uppercase;
+font-size: 3.3em; 
+}
+#player2counter{
+    font-family: myfont;
+    text-transform: uppercase;
+    font-size: 3.3em; 
+    }
+#WC{
+    position:absolute;
+    left:10px;
+    top: 370px;  
+}
+#Hide{
+    position:absolute;
+    left:250px;
+    top: 370px;      
+}
